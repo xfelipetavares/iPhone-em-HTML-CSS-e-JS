@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 64.2%;
+}
+body {
+    width: 100%;
+    background-color: #F5F5F7;
+}
+main {
+    /* background-color: red; */
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+main .iphone {
+    position: relative;
+    display: inline-flex;
+    margin: 2rem;
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    max-height: 800px;
+    background-color: black;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 10px 3px #999;
+    box-shadow: 0 0 10px 10px #999;
+}
+main .iphone .screen {
+    position: absolute;
+    background-image: url("../assets/wpios.jpg");
+    background-size: cover;
+    width: 94%;
+    height: 97%;
+    border-radius: 50px;
+
+}
+main .iphone .notch {
+    width: 52%;
+    height: 5%;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 50;
+    border-radius: 0 0 25px 25px;
+}
+main .iphone .speaker {
+    position: absolute;
+    border-radius: 10px;
+    top: 1.5rem;
+    left: 50;
+    width: 15%;
+    height: 1%;
+    background-color: #444;
+    z-index: 10;
+}
+main .iphone .camera {
+    position: absolute;
+    border-radius: 10px;
+    top: 1.2rem;
+    left: 60%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #444;
+    z-index: 10;
+}
+main .iphone .screen .home-button {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    bottom: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15rem;
+    height: 1rem;
+    background-color: #fff;
+    z-index: 10;
+}
+main .iphone .screen .dock {
+    position: absolute;
+    border-radius: 30px;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 12%;
+    background-color: hsla(0, 0%, 100%, 0.549);
+    z-index: 10;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    border-radius: 15px;
+    width: 6rem;
+    height: 6rem;
+    /* border: 1px solid red; */
+    opacity: 100%;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.378);
+    
+}
+.icons:hover {
+    cursor: pointer;
+    opacity: 80%;
+    background: hsl(0, 0%, 0%);
+}
+.home-icons
