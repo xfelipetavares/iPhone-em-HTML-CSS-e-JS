@@ -20,6 +20,4 @@ function time(){
     clock_phone.innerHTML = `${horas}:${minutos}`
 
     requestAnimationFrame(time)
-    
-
 }
