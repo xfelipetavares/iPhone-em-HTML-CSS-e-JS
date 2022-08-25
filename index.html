@@ -10,7 +10,7 @@
     </head>
     <body onload="time()">
         <main class="main">
-            <div id="iphone" class="iphone">
+            <div id="iphone" class="iphone settings">
                 <div class="notch"></div>
                 <div class="camera"></div>
                 <div class="speaker"></div>
@@ -38,88 +38,130 @@
                             <div class="call-green"><img class="call-icon" src="assets/call-icon.png" alt=""></div>
                         </div>
                     </div>
-                    
                     <div class="home-icons">
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/mail.png" alt="" />
-                            <p>Mail</p>
+                        <div class="widgets">
+                            <div class="">
+                                <img class="weather-widget" onclick="nada()" src="assets/weather2.png" />
+                            </div>
                         </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/calendar.png" alt="" />
-                            <p>Calendar</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/photos.png" alt="" />
-                            <p>Photos</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/camera.png" alt="" />
-                            <p>Camera</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/maps.png" alt="" />
-                            <p>Maps</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/clock.png" alt="" />
-                            <p>Clock</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/weather.png" alt="" />
-                            <p>Weather</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/home.png" alt="" />
-                            <p>Home</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/notes.png" alt="" />
-                            <p>Notes</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/stocks.png" alt="" />
-                            <p>Stock</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons"  onclick="nada()"src="assets/reminder.png" alt="" />
-                            <p>Reminder</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/videos.png" alt="" />
-                            <p>Video</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/appstore.png" alt="" />
-                            <p>App Store</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/itunes.png" alt="" />
-                            <p>iTunes</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/ibook.png" alt="" />
-                            <p>iBooks</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/health.png" alt="" />
-                            <p>Health</p>
-                        </div>
-                        <div class="box-icon">
-                            <img class="icons" onclick="nada()" src="assets/wallet.png" alt="" />
-                            <p>Wallet</p>
-                        </div>
-                        <div class="box-icon" >
-                            <img class="icons" onclick="nada()" src="assets/set.png" alt="" />
-                            <p>Settings</p>
+                        
+                        <div class="icons-box">
+                            <div class="box-icon">
+                                <div class="icon-counter">
+                                    <p>5</p>
+                                </div>
+                                <img class="icons" onclick="nada()" src="assets/facetime.png" alt="" />
+                                <p>FaceTime</p>
+                            </div>
+                        
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/calendar.png" alt="" />
+                                <p>Calendar</p>
+                            </div>
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/photos.png" alt="" />
+                                <p>Photos</p>
+                            </div>
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/camera.png" alt="" />
+                                <p>Camera</p>
+                            </div>
+                            <div class="box-icon">
+                                <div class="icon-counter">
+                                    <p>99+</p>
+                                </div>
+                                <img class="icons" onclick="nada()" src="assets/mail.png" alt="" />
+                                <p>Mail</p>
+                            </div>
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/notes.png" alt="" />
+                                <p>Notes</p>
+                            </div>
+                            <div class="box-icon">
+                                <img class="icons"  onclick="nada()"src="assets/reminder.png" alt="" />
+                                <p>Reminder</p>
+                            </div>
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/clock.png" alt="" />
+                                <p>Clock</p>
+                            </div>
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/maps.png" alt="" />
+                                <p>Maps</p>
+                            </div>
+                        
+                            <!-- <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/weather.png" alt="" />
+                                <p>Weather</p>
+                            </div> -->
+                            <!-- <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/home.png" alt="" />
+                                <p>Home</p>
+                            </div> -->
+                        
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/podcasts.png" alt="" />
+                                <p>Podcasts</p>
+                            </div>
+                        
+                            <!-- <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/videos.png" alt="" />
+                                <p>Video</p>
+                            </div> -->
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/appstore.png" alt="" />
+                                <p>App Store</p>
+                            </div>
+                            <!-- <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/itunes.png" alt="" />
+                                <p>iTunes</p>
+                            </div> -->
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/ibook.png" alt="" />
+                                <p>Books</p>
+                            </div>
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/health.png" alt="" />
+                                <p>Health</p>
+                            </div>
+                            <div class="box-icon">
+                                <img class="icons" onclick="nada()" src="assets/wallet.png" alt="" />
+                                <p>Wallet</p>
+                            </div>
+                            <div class="box-icon" >
+                                <div class="icon-counter">
+                                    <p>2</p>
+                                </div>
+                                <img class="icons" onclick="nada()" src="assets/set.png" alt="" />
+                                <p>Settings</p>
+                            </div>
                         </div>
                     </div>
-                    <!-- <img class="logo-apple" src="assets/apple-logo.png" alt="" /> -->
                     <div class="dock">
-                        <img class="icons" onclick="dialer()" src="assets/phone.png" alt="" />
-                        <img class="icons" onclick="nada()" src="assets/safari.png" alt="" />
-                        <img class="icons" onclick="nada()" src="assets/ime.png" alt="" />
-                        <img class="icons" onclick="nada()" src="assets/music.png" alt="" />
+                        <div class="box-icon">
+                            <div class="icon-counter">
+                                <p>20</p>
+                            </div>
+                            <img class="icons" onclick="dialer()" src="assets/phone.png" alt="" />
+                        </div>
+                        <div class="box-icon">
+                            <img class="icons" onclick="nada()" src="assets/safari.png" alt="" />
+                        </div>
+                        <div class="box-icon">
+                            <div class="icon-counter">
+                                <p>78</p>
+                            </div>
+                            <img class="icons" onclick="nada()" src="assets/ime.png" alt="" />
+                        </div>
+                        <div class="box-icon">
+                            <img class="icons" onclick="nada()" src="assets/music.png" alt="" />
+                        </div>
                     </div>
+                        <!-- <img class="icons-dock" onclick="dialer()" src="assets/phone.png" alt="" />
+                        <img class="icons-dock" onclick="nada()" src="assets/safari.png" alt="" />
+                        <img class="icons-dock" onclick="nada()" src="assets/ime.png" alt="" />
+                        <img class="icons-dock" onclick="nada()" src="assets/music.png" alt="" /> -->
+                    <!-- <img class="logo-apple" src="assets/apple-logo.png" alt="" /> -->
                     <div class="home-button" onclick="goHome()" ></div>
                 </div>
             </div>
