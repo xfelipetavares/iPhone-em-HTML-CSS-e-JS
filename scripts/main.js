@@ -21,3 +21,15 @@ function time(){
 
     requestAnimationFrame(time)
 }
+
+function iphone14() {
+    document.getElementById(`notch`).classList.remove('notch');
+    document.getElementById(`notch`).classList.add('notch-i14');
+
+    document.getElementById(`camera`).classList.remove('notch');
+    document.getElementById(`camera`).classList.add('camera-i14');
+
+    document.getElementById(`speaker`).classList.remove('notch');
+    document.getElementById(`speaker`).classList.add('speaker-i14');
+    
+}

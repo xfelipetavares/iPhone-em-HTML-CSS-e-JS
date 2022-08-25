@@ -169,6 +169,31 @@ main .iphone .camera {
     background-color: #444;
     z-index: 10;
 }
+main .iphone .speaker-i14 {
+    position: absolute;
+    border-radius: 15px;
+    top: 2rem;
+    left: 40%;
+    width: 6rem;
+    height: 2.3rem;
+    background-color: #000;
+    z-index: 10;
+}
+main .iphone .notch-i14 {
+    display: hidden;
+    opacity: 0;
+}
+main .iphone .camera-i14 {
+    position: absolute;
+    border-radius: 100%;
+    top: 2rem;
+    left: 60%;
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: #000;
+    z-index: 10;
+}
+
 
 /* ###################### HOME BUTTOM ########################## */
 main .iphone .home-button {
